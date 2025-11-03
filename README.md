@@ -1,6 +1,8 @@
 # Delphi Multithreading: Threads, Concurrency, Parallelism and Asynchronous Programming - Official Source Code
 
-[Repositório da Edição em Português: https://github.com/cesarliws/DelphiMultithreadingBookCode](https://github.com/cesarliws/DelphiMultithreadingBookCode)
+> **Repositório da Edição em Português**
+>
+> [https://github.com/cesarliws/DelphiMultithreadingBookCode](https://github.com/cesarliws/DelphiMultithreadingBookCode)
 
 This repository contains all the source code for the practical examples in the book **"Delphi Multithreading: Threads, Concurrency, Parallelism and Asynchronous Programming,"** written by Cesar Romero.
 
