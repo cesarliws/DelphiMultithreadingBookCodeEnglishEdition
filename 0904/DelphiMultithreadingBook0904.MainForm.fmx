@@ -1,0 +1,68 @@
+object MainForm: TMainForm
+  Left = 0
+  Top = 0
+  Caption = 
+    'Delphi Multithreading Book - 9.4: Platform-Specific Consideratio' +
+    'ns and Lifecycle Management'
+  ClientHeight = 480
+  ClientWidth = 342
+  Position = ScreenCenter
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  DesignerMasterStyle = 0
+  object LogMemo: TMemo
+    Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+    DataDetectorTypes = []
+    Align = Client
+    Margins.Left = 3.000000000000000000
+    Margins.Top = 3.000000000000000000
+    Margins.Right = 3.000000000000000000
+    Margins.Bottom = 3.000000000000000000
+    Size.Width = 336.000000000000000000
+    Size.Height = 389.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Viewport.Width = 332.000000000000000000
+    Viewport.Height = 385.000000000000000000
+  end
+  object Layout: TLayout
+    Align = MostTop
+    Size.Width = 342.000000000000000000
+    Size.Height = 85.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    object RequestSuccessButton: TButton
+      Align = Top
+      Margins.Left = 3.000000000000000000
+      Margins.Top = 3.000000000000000000
+      Margins.Right = 3.000000000000000000
+      Margins.Bottom = 3.000000000000000000
+      Position.X = 3.000000000000000000
+      Position.Y = 3.000000000000000000
+      Size.Width = 336.000000000000000000
+      Size.Height = 35.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      Text = 'Successful Request'
+      OnClick = RequestSuccessButtonClick
+    end
+    object RequestFailButton: TButton
+      Align = Top
+      Margins.Left = 3.000000000000000000
+      Margins.Top = 3.000000000000000000
+      Margins.Right = 3.000000000000000000
+      Margins.Bottom = 3.000000000000000000
+      Position.X = 3.000000000000000000
+      Position.Y = 44.000000000000000000
+      Size.Width = 336.000000000000000000
+      Size.Height = 35.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      Text = 'Failed Request'
+      OnClick = RequestFailButtonClick
+    end
+  end
+end

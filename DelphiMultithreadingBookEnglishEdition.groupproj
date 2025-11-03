@@ -1,0 +1,588 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{845A908B-135A-4C5D-9EAC-BA963A09CD2B}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="0101\DelphiMultitheadingBook0101.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="0201\DelphiMultithreadingBook0201.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="0202\DelphiMultithreadingBook0202.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="0203\DelphiMultithreadingBook0203.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="0204\DelphiMultithreadingBook0204.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="0301\DelphiMultithreadingBook0301.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="0302\DelphiMultithreadingBook0302.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="0303\DelphiMultithreadingBook0303.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="0304\DelphiMultithreadingBook0304.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="0305\DelphiMultithreadingBook0305.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="0306\DelphiMultithreadingBook0306.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="0307\DelphiMultithreadingBook0307.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="0308\DelphiMultithreadingBook0308.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="0401\DelphiMultithreadingBook0401.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="0402\DelphiMultithreadingBook0402.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="0403\DelphiMultithreadingBook0403.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="0404\DelphiMultithreadingBook0404.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="0405\DelphiMultithreadingBook0405.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="0406\DelphiMultithreadingBook0406.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="0501\DelphiMultithreadingBook0501.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="0503\DelphiMultithreadingBook0503.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="0504\DelphiMultithreadingBook0504.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="0505\DelphiMultithreadingBook0505.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="0602\DelphiMultithreadingBook0602.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="0603\DelphiMultithreadingBook0603.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="0604\DelphiMultithreadingBook0604.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="0605\DelphiMultithreadingBook0605.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="0606\DelphiMultithreadingBook0606.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="0701\DelphiMultithreadingBook0701.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="0704\DelphiMultithreadingBook0704.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="0705\DelphiMultithreadingBook0705.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="0801\DelphiMultithreadingBook0801.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="0802\DelphiMultithreadingBook0802.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="0803\DelphiMultithreadingBook0803.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="0804\DelphiMultiThreadingBook0804.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="0806\DelphiMultiThreadingBook0806.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="0904\DelphiMultithreadingBook0904.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="0906\DelphiMultithreadingBook0906.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="0907\DelphiMultithreadingBook0907.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="0908\DelphiMultithreadingBook0908.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="1001\DelphiMultithreadingBook1001.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="1002\DelphiMultithreadingBook1002.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="1003\DelphiMultithreadingBook1003.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="1004\DelphiMultithreadingBook1004.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="1005\DelphiMultithreadingBook1005.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="1102\DelphiMultithreadingBook1102.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="1105\DelphiMultithreadingBook1105.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="DelphiMultitheadingBook0101">
+        <MSBuild Projects="0101\DelphiMultitheadingBook0101.dproj"/>
+    </Target>
+    <Target Name="DelphiMultitheadingBook0101:Clean">
+        <MSBuild Projects="0101\DelphiMultitheadingBook0101.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DelphiMultitheadingBook0101:Make">
+        <MSBuild Projects="0101\DelphiMultitheadingBook0101.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0201">
+        <MSBuild Projects="0201\DelphiMultithreadingBook0201.dproj"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0201:Clean">
+        <MSBuild Projects="0201\DelphiMultithreadingBook0201.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0201:Make">
+        <MSBuild Projects="0201\DelphiMultithreadingBook0201.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0202">
+        <MSBuild Projects="0202\DelphiMultithreadingBook0202.dproj"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0202:Clean">
+        <MSBuild Projects="0202\DelphiMultithreadingBook0202.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0202:Make">
+        <MSBuild Projects="0202\DelphiMultithreadingBook0202.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0203">
+        <MSBuild Projects="0203\DelphiMultithreadingBook0203.dproj"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0203:Clean">
+        <MSBuild Projects="0203\DelphiMultithreadingBook0203.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0203:Make">
+        <MSBuild Projects="0203\DelphiMultithreadingBook0203.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0204">
+        <MSBuild Projects="0204\DelphiMultithreadingBook0204.dproj"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0204:Clean">
+        <MSBuild Projects="0204\DelphiMultithreadingBook0204.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0204:Make">
+        <MSBuild Projects="0204\DelphiMultithreadingBook0204.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0301">
+        <MSBuild Projects="0301\DelphiMultithreadingBook0301.dproj"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0301:Clean">
+        <MSBuild Projects="0301\DelphiMultithreadingBook0301.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0301:Make">
+        <MSBuild Projects="0301\DelphiMultithreadingBook0301.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0302">
+        <MSBuild Projects="0302\DelphiMultithreadingBook0302.dproj"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0302:Clean">
+        <MSBuild Projects="0302\DelphiMultithreadingBook0302.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0302:Make">
+        <MSBuild Projects="0302\DelphiMultithreadingBook0302.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0303">
+        <MSBuild Projects="0303\DelphiMultithreadingBook0303.dproj"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0303:Clean">
+        <MSBuild Projects="0303\DelphiMultithreadingBook0303.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0303:Make">
+        <MSBuild Projects="0303\DelphiMultithreadingBook0303.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0304">
+        <MSBuild Projects="0304\DelphiMultithreadingBook0304.dproj"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0304:Clean">
+        <MSBuild Projects="0304\DelphiMultithreadingBook0304.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0304:Make">
+        <MSBuild Projects="0304\DelphiMultithreadingBook0304.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0305">
+        <MSBuild Projects="0305\DelphiMultithreadingBook0305.dproj"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0305:Clean">
+        <MSBuild Projects="0305\DelphiMultithreadingBook0305.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0305:Make">
+        <MSBuild Projects="0305\DelphiMultithreadingBook0305.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0306">
+        <MSBuild Projects="0306\DelphiMultithreadingBook0306.dproj"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0306:Clean">
+        <MSBuild Projects="0306\DelphiMultithreadingBook0306.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0306:Make">
+        <MSBuild Projects="0306\DelphiMultithreadingBook0306.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0307">
+        <MSBuild Projects="0307\DelphiMultithreadingBook0307.dproj"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0307:Clean">
+        <MSBuild Projects="0307\DelphiMultithreadingBook0307.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0307:Make">
+        <MSBuild Projects="0307\DelphiMultithreadingBook0307.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0308">
+        <MSBuild Projects="0308\DelphiMultithreadingBook0308.dproj"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0308:Clean">
+        <MSBuild Projects="0308\DelphiMultithreadingBook0308.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0308:Make">
+        <MSBuild Projects="0308\DelphiMultithreadingBook0308.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0401">
+        <MSBuild Projects="0401\DelphiMultithreadingBook0401.dproj"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0401:Clean">
+        <MSBuild Projects="0401\DelphiMultithreadingBook0401.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0401:Make">
+        <MSBuild Projects="0401\DelphiMultithreadingBook0401.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0402">
+        <MSBuild Projects="0402\DelphiMultithreadingBook0402.dproj"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0402:Clean">
+        <MSBuild Projects="0402\DelphiMultithreadingBook0402.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0402:Make">
+        <MSBuild Projects="0402\DelphiMultithreadingBook0402.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0403">
+        <MSBuild Projects="0403\DelphiMultithreadingBook0403.dproj"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0403:Clean">
+        <MSBuild Projects="0403\DelphiMultithreadingBook0403.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0403:Make">
+        <MSBuild Projects="0403\DelphiMultithreadingBook0403.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0404">
+        <MSBuild Projects="0404\DelphiMultithreadingBook0404.dproj"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0404:Clean">
+        <MSBuild Projects="0404\DelphiMultithreadingBook0404.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0404:Make">
+        <MSBuild Projects="0404\DelphiMultithreadingBook0404.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0405">
+        <MSBuild Projects="0405\DelphiMultithreadingBook0405.dproj"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0405:Clean">
+        <MSBuild Projects="0405\DelphiMultithreadingBook0405.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0405:Make">
+        <MSBuild Projects="0405\DelphiMultithreadingBook0405.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0406">
+        <MSBuild Projects="0406\DelphiMultithreadingBook0406.dproj"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0406:Clean">
+        <MSBuild Projects="0406\DelphiMultithreadingBook0406.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0406:Make">
+        <MSBuild Projects="0406\DelphiMultithreadingBook0406.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0501">
+        <MSBuild Projects="0501\DelphiMultithreadingBook0501.dproj"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0501:Clean">
+        <MSBuild Projects="0501\DelphiMultithreadingBook0501.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0501:Make">
+        <MSBuild Projects="0501\DelphiMultithreadingBook0501.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0503">
+        <MSBuild Projects="0503\DelphiMultithreadingBook0503.dproj"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0503:Clean">
+        <MSBuild Projects="0503\DelphiMultithreadingBook0503.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0503:Make">
+        <MSBuild Projects="0503\DelphiMultithreadingBook0503.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0504">
+        <MSBuild Projects="0504\DelphiMultithreadingBook0504.dproj"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0504:Clean">
+        <MSBuild Projects="0504\DelphiMultithreadingBook0504.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0504:Make">
+        <MSBuild Projects="0504\DelphiMultithreadingBook0504.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0505">
+        <MSBuild Projects="0505\DelphiMultithreadingBook0505.dproj"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0505:Clean">
+        <MSBuild Projects="0505\DelphiMultithreadingBook0505.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0505:Make">
+        <MSBuild Projects="0505\DelphiMultithreadingBook0505.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0602">
+        <MSBuild Projects="0602\DelphiMultithreadingBook0602.dproj"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0602:Clean">
+        <MSBuild Projects="0602\DelphiMultithreadingBook0602.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0602:Make">
+        <MSBuild Projects="0602\DelphiMultithreadingBook0602.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0603">
+        <MSBuild Projects="0603\DelphiMultithreadingBook0603.dproj"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0603:Clean">
+        <MSBuild Projects="0603\DelphiMultithreadingBook0603.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0603:Make">
+        <MSBuild Projects="0603\DelphiMultithreadingBook0603.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0604">
+        <MSBuild Projects="0604\DelphiMultithreadingBook0604.dproj"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0604:Clean">
+        <MSBuild Projects="0604\DelphiMultithreadingBook0604.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0604:Make">
+        <MSBuild Projects="0604\DelphiMultithreadingBook0604.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0605">
+        <MSBuild Projects="0605\DelphiMultithreadingBook0605.dproj"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0605:Clean">
+        <MSBuild Projects="0605\DelphiMultithreadingBook0605.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0605:Make">
+        <MSBuild Projects="0605\DelphiMultithreadingBook0605.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0606">
+        <MSBuild Projects="0606\DelphiMultithreadingBook0606.dproj"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0606:Clean">
+        <MSBuild Projects="0606\DelphiMultithreadingBook0606.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0606:Make">
+        <MSBuild Projects="0606\DelphiMultithreadingBook0606.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0701">
+        <MSBuild Projects="0701\DelphiMultithreadingBook0701.dproj"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0701:Clean">
+        <MSBuild Projects="0701\DelphiMultithreadingBook0701.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0701:Make">
+        <MSBuild Projects="0701\DelphiMultithreadingBook0701.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0704">
+        <MSBuild Projects="0704\DelphiMultithreadingBook0704.dproj"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0704:Clean">
+        <MSBuild Projects="0704\DelphiMultithreadingBook0704.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0704:Make">
+        <MSBuild Projects="0704\DelphiMultithreadingBook0704.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0705">
+        <MSBuild Projects="0705\DelphiMultithreadingBook0705.dproj"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0705:Clean">
+        <MSBuild Projects="0705\DelphiMultithreadingBook0705.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0705:Make">
+        <MSBuild Projects="0705\DelphiMultithreadingBook0705.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0801">
+        <MSBuild Projects="0801\DelphiMultithreadingBook0801.dproj"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0801:Clean">
+        <MSBuild Projects="0801\DelphiMultithreadingBook0801.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0801:Make">
+        <MSBuild Projects="0801\DelphiMultithreadingBook0801.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0802">
+        <MSBuild Projects="0802\DelphiMultithreadingBook0802.dproj"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0802:Clean">
+        <MSBuild Projects="0802\DelphiMultithreadingBook0802.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0802:Make">
+        <MSBuild Projects="0802\DelphiMultithreadingBook0802.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0803">
+        <MSBuild Projects="0803\DelphiMultithreadingBook0803.dproj"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0803:Clean">
+        <MSBuild Projects="0803\DelphiMultithreadingBook0803.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0803:Make">
+        <MSBuild Projects="0803\DelphiMultithreadingBook0803.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DelphiMultiThreadingBook0804">
+        <MSBuild Projects="0804\DelphiMultiThreadingBook0804.dproj"/>
+    </Target>
+    <Target Name="DelphiMultiThreadingBook0804:Clean">
+        <MSBuild Projects="0804\DelphiMultiThreadingBook0804.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DelphiMultiThreadingBook0804:Make">
+        <MSBuild Projects="0804\DelphiMultiThreadingBook0804.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DelphiMultiThreadingBook0806">
+        <MSBuild Projects="0806\DelphiMultiThreadingBook0806.dproj"/>
+    </Target>
+    <Target Name="DelphiMultiThreadingBook0806:Clean">
+        <MSBuild Projects="0806\DelphiMultiThreadingBook0806.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DelphiMultiThreadingBook0806:Make">
+        <MSBuild Projects="0806\DelphiMultiThreadingBook0806.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0904">
+        <MSBuild Projects="0904\DelphiMultithreadingBook0904.dproj"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0904:Clean">
+        <MSBuild Projects="0904\DelphiMultithreadingBook0904.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0904:Make">
+        <MSBuild Projects="0904\DelphiMultithreadingBook0904.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0906">
+        <MSBuild Projects="0906\DelphiMultithreadingBook0906.dproj"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0906:Clean">
+        <MSBuild Projects="0906\DelphiMultithreadingBook0906.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0906:Make">
+        <MSBuild Projects="0906\DelphiMultithreadingBook0906.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0907">
+        <MSBuild Projects="0907\DelphiMultithreadingBook0907.dproj"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0907:Clean">
+        <MSBuild Projects="0907\DelphiMultithreadingBook0907.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0907:Make">
+        <MSBuild Projects="0907\DelphiMultithreadingBook0907.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0908">
+        <MSBuild Projects="0908\DelphiMultithreadingBook0908.dproj"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0908:Clean">
+        <MSBuild Projects="0908\DelphiMultithreadingBook0908.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook0908:Make">
+        <MSBuild Projects="0908\DelphiMultithreadingBook0908.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook1001">
+        <MSBuild Projects="1001\DelphiMultithreadingBook1001.dproj"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook1001:Clean">
+        <MSBuild Projects="1001\DelphiMultithreadingBook1001.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook1001:Make">
+        <MSBuild Projects="1001\DelphiMultithreadingBook1001.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook1002">
+        <MSBuild Projects="1002\DelphiMultithreadingBook1002.dproj"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook1002:Clean">
+        <MSBuild Projects="1002\DelphiMultithreadingBook1002.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook1002:Make">
+        <MSBuild Projects="1002\DelphiMultithreadingBook1002.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook1003">
+        <MSBuild Projects="1003\DelphiMultithreadingBook1003.dproj"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook1003:Clean">
+        <MSBuild Projects="1003\DelphiMultithreadingBook1003.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook1003:Make">
+        <MSBuild Projects="1003\DelphiMultithreadingBook1003.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook1004">
+        <MSBuild Projects="1004\DelphiMultithreadingBook1004.dproj"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook1004:Clean">
+        <MSBuild Projects="1004\DelphiMultithreadingBook1004.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook1004:Make">
+        <MSBuild Projects="1004\DelphiMultithreadingBook1004.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook1005">
+        <MSBuild Projects="1005\DelphiMultithreadingBook1005.dproj"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook1005:Clean">
+        <MSBuild Projects="1005\DelphiMultithreadingBook1005.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook1005:Make">
+        <MSBuild Projects="1005\DelphiMultithreadingBook1005.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook1102">
+        <MSBuild Projects="1102\DelphiMultithreadingBook1102.dproj"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook1102:Clean">
+        <MSBuild Projects="1102\DelphiMultithreadingBook1102.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook1102:Make">
+        <MSBuild Projects="1102\DelphiMultithreadingBook1102.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook1105">
+        <MSBuild Projects="1105\DelphiMultithreadingBook1105.dproj"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook1105:Clean">
+        <MSBuild Projects="1105\DelphiMultithreadingBook1105.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DelphiMultithreadingBook1105:Make">
+        <MSBuild Projects="1105\DelphiMultithreadingBook1105.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="DelphiMultitheadingBook0101;DelphiMultithreadingBook0201;DelphiMultithreadingBook0202;DelphiMultithreadingBook0203;DelphiMultithreadingBook0204;DelphiMultithreadingBook0301;DelphiMultithreadingBook0302;DelphiMultithreadingBook0303;DelphiMultithreadingBook0304;DelphiMultithreadingBook0305;DelphiMultithreadingBook0306;DelphiMultithreadingBook0307;DelphiMultithreadingBook0308;DelphiMultithreadingBook0401;DelphiMultithreadingBook0402;DelphiMultithreadingBook0403;DelphiMultithreadingBook0404;DelphiMultithreadingBook0405;DelphiMultithreadingBook0406;DelphiMultithreadingBook0501;DelphiMultithreadingBook0503;DelphiMultithreadingBook0504;DelphiMultithreadingBook0505;DelphiMultithreadingBook0602;DelphiMultithreadingBook0603;DelphiMultithreadingBook0604;DelphiMultithreadingBook0605;DelphiMultithreadingBook0606;DelphiMultithreadingBook0701;DelphiMultithreadingBook0704;DelphiMultithreadingBook0705;DelphiMultithreadingBook0801;DelphiMultithreadingBook0802;DelphiMultithreadingBook0803;DelphiMultiThreadingBook0804;DelphiMultiThreadingBook0806;DelphiMultithreadingBook0904;DelphiMultithreadingBook0906;DelphiMultithreadingBook0907;DelphiMultithreadingBook0908;DelphiMultithreadingBook1001;DelphiMultithreadingBook1002;DelphiMultithreadingBook1003;DelphiMultithreadingBook1004;DelphiMultithreadingBook1005;DelphiMultithreadingBook1102;DelphiMultithreadingBook1105"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="DelphiMultitheadingBook0101:Clean;DelphiMultithreadingBook0201:Clean;DelphiMultithreadingBook0202:Clean;DelphiMultithreadingBook0203:Clean;DelphiMultithreadingBook0204:Clean;DelphiMultithreadingBook0301:Clean;DelphiMultithreadingBook0302:Clean;DelphiMultithreadingBook0303:Clean;DelphiMultithreadingBook0304:Clean;DelphiMultithreadingBook0305:Clean;DelphiMultithreadingBook0306:Clean;DelphiMultithreadingBook0307:Clean;DelphiMultithreadingBook0308:Clean;DelphiMultithreadingBook0401:Clean;DelphiMultithreadingBook0402:Clean;DelphiMultithreadingBook0403:Clean;DelphiMultithreadingBook0404:Clean;DelphiMultithreadingBook0405:Clean;DelphiMultithreadingBook0406:Clean;DelphiMultithreadingBook0501:Clean;DelphiMultithreadingBook0503:Clean;DelphiMultithreadingBook0504:Clean;DelphiMultithreadingBook0505:Clean;DelphiMultithreadingBook0602:Clean;DelphiMultithreadingBook0603:Clean;DelphiMultithreadingBook0604:Clean;DelphiMultithreadingBook0605:Clean;DelphiMultithreadingBook0606:Clean;DelphiMultithreadingBook0701:Clean;DelphiMultithreadingBook0704:Clean;DelphiMultithreadingBook0705:Clean;DelphiMultithreadingBook0801:Clean;DelphiMultithreadingBook0802:Clean;DelphiMultithreadingBook0803:Clean;DelphiMultiThreadingBook0804:Clean;DelphiMultiThreadingBook0806:Clean;DelphiMultithreadingBook0904:Clean;DelphiMultithreadingBook0906:Clean;DelphiMultithreadingBook0907:Clean;DelphiMultithreadingBook0908:Clean;DelphiMultithreadingBook1001:Clean;DelphiMultithreadingBook1002:Clean;DelphiMultithreadingBook1003:Clean;DelphiMultithreadingBook1004:Clean;DelphiMultithreadingBook1005:Clean;DelphiMultithreadingBook1102:Clean;DelphiMultithreadingBook1105:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="DelphiMultitheadingBook0101:Make;DelphiMultithreadingBook0201:Make;DelphiMultithreadingBook0202:Make;DelphiMultithreadingBook0203:Make;DelphiMultithreadingBook0204:Make;DelphiMultithreadingBook0301:Make;DelphiMultithreadingBook0302:Make;DelphiMultithreadingBook0303:Make;DelphiMultithreadingBook0304:Make;DelphiMultithreadingBook0305:Make;DelphiMultithreadingBook0306:Make;DelphiMultithreadingBook0307:Make;DelphiMultithreadingBook0308:Make;DelphiMultithreadingBook0401:Make;DelphiMultithreadingBook0402:Make;DelphiMultithreadingBook0403:Make;DelphiMultithreadingBook0404:Make;DelphiMultithreadingBook0405:Make;DelphiMultithreadingBook0406:Make;DelphiMultithreadingBook0501:Make;DelphiMultithreadingBook0503:Make;DelphiMultithreadingBook0504:Make;DelphiMultithreadingBook0505:Make;DelphiMultithreadingBook0602:Make;DelphiMultithreadingBook0603:Make;DelphiMultithreadingBook0604:Make;DelphiMultithreadingBook0605:Make;DelphiMultithreadingBook0606:Make;DelphiMultithreadingBook0701:Make;DelphiMultithreadingBook0704:Make;DelphiMultithreadingBook0705:Make;DelphiMultithreadingBook0801:Make;DelphiMultithreadingBook0802:Make;DelphiMultithreadingBook0803:Make;DelphiMultiThreadingBook0804:Make;DelphiMultiThreadingBook0806:Make;DelphiMultithreadingBook0904:Make;DelphiMultithreadingBook0906:Make;DelphiMultithreadingBook0907:Make;DelphiMultithreadingBook0908:Make;DelphiMultithreadingBook1001:Make;DelphiMultithreadingBook1002:Make;DelphiMultithreadingBook1003:Make;DelphiMultithreadingBook1004:Make;DelphiMultithreadingBook1005:Make;DelphiMultithreadingBook1102:Make;DelphiMultithreadingBook1105:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

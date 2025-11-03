@@ -1,0 +1,115 @@
+object MainForm: TMainForm
+  Left = 0
+  Top = 0
+  Caption = 
+    'Delphi Multithreading Book - 9.8: Batch Image Processing for Max' +
+    'imum Throughput'
+  ClientHeight = 616
+  ClientWidth = 479
+  Position = ScreenCenter
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  DesignerMasterStyle = 0
+  object TopLayout: TLayout
+    Align = Top
+    Size.Width = 479.000000000000000000
+    Size.Height = 74.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object StartButton: TButton
+      Align = Client
+      Margins.Left = 3.000000000000000000
+      Margins.Top = 3.000000000000000000
+      Margins.Right = 3.000000000000000000
+      Margins.Bottom = 3.000000000000000000
+      Size.Width = 473.000000000000000000
+      Size.Height = 43.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Text = 'Apply Filter in Batch'
+      OnClick = StartButtonClick
+    end
+    object CancelButton: TButton
+      Align = Right
+      Margins.Left = 3.000000000000000000
+      Margins.Top = 3.000000000000000000
+      Margins.Right = 3.000000000000000000
+      Margins.Bottom = 3.000000000000000000
+      Position.X = 560.000000000000000000
+      Size.Width = 80.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      Text = 'Cancel'
+      Visible = False
+      OnClick = CancelButtonClick
+    end
+    object SaveFilesCheckBox: TCheckBox
+      Align = Bottom
+      Margins.Left = 3.000000000000000000
+      Margins.Top = 3.000000000000000000
+      Margins.Right = 3.000000000000000000
+      Margins.Bottom = 3.000000000000000000
+      Position.X = 3.000000000000000000
+      Position.Y = 52.000000000000000000
+      Size.Width = 473.000000000000000000
+      Size.Height = 19.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      Text = 'Save Images to Photo Gallery'
+    end
+  end
+  object LogMemo: TMemo
+    Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+    DataDetectorTypes = []
+    Align = Client
+    Margins.Left = 3.000000000000000000
+    Margins.Top = 3.000000000000000000
+    Margins.Right = 3.000000000000000000
+    Margins.Bottom = 3.000000000000000000
+    Size.Width = 473.000000000000000000
+    Size.Height = 470.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    Viewport.Width = 469.000000000000000000
+    Viewport.Height = 466.000000000000000000
+  end
+  object ProgressBar: TProgressBar
+    Align = Top
+    Orientation = Horizontal
+    Margins.Left = 3.000000000000000000
+    Margins.Top = 3.000000000000000000
+    Margins.Right = 3.000000000000000000
+    Margins.Bottom = 3.000000000000000000
+    Position.X = 3.000000000000000000
+    Position.Y = 77.000000000000000000
+    Size.Width = 473.000000000000000000
+    Size.Height = 10.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object BottomLayout: TLayout
+    Align = Bottom
+    Position.Y = 566.000000000000000000
+    Size.Width = 479.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object DeleteOutputButton: TButton
+      Align = Client
+      Enabled = False
+      Margins.Left = 3.000000000000000000
+      Margins.Top = 3.000000000000000000
+      Margins.Right = 3.000000000000000000
+      Margins.Bottom = 3.000000000000000000
+      Size.Width = 473.000000000000000000
+      Size.Height = 44.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Text = 'Delete Saved Files'
+      OnClick = DeleteOutputButtonClick
+    end
+  end
+end
